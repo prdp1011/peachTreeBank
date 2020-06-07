@@ -1,0 +1,34 @@
+.header-container{
+  display: flex;
+  justify-content: flex-end;
+  background: #afb1bc;
+  height:60px;
+  width:100%;
+}
+.w-100{
+  width:100%;
+}
+.border-menu{
+  border-bottom: 1px solid;
+  border-color: #fff;
+  .mat-drawer{
+    background-color: #6372dd;
+  }
+}
+
+.top-margin{
+  margin-top: 60%;
+}
+
+.left-align{
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.mat-container{
+  min-height: 370px;}
+  .table-spacing{
+  border-spacing: 0px 8px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;}

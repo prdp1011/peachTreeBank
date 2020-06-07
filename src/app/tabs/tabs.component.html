@@ -1,0 +1,23 @@
+<div class="header-container">
+    <button mat-button (click)="logout()">
+      <mat-icon class="cl-wh">exit_to_app</mat-icon>
+      <span class="cl-wh">Logout</span>
+    </button>
+</div>
+
+<mat-tab-group>
+  <mat-tab label="Transactions">
+    <ng-template matTabContent>
+       <div class="m-10 mat-elevation-z8">
+         <app-trasaction-list></app-trasaction-list>
+       </div>
+    </ng-template>
+  </mat-tab>
+  <mat-tab label="Capital">
+    <ng-template matTabContent>
+      <div class="m-10 mat-elevation-z8">
+        <app-capital-list></app-capital-list>
+      </div>
+    </ng-template>
+  </mat-tab>
+</mat-tab-group>
